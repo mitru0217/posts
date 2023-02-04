@@ -12,6 +12,7 @@ export const MySelect = styled.select`
   color: teal;
   background: transparent;
   font-size: 16px;
+  border: 1px solid teal;
   border-radius: 4px;
   :hover {
     color: blueviolet;

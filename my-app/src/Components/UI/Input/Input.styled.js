@@ -9,7 +9,10 @@ export const MyInput = styled.input`
   background: transparent;
   border: 1px solid teal;
   border-radius: 4px;
-  :hover {
+  &::-webkit-input-placeholder {
+    color: teal;
+  }
+  &:hover {
     color: blueviolet;
     border: 1px solid blueviolet;
   }

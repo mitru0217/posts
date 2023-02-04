@@ -22,7 +22,10 @@ export const Info = styled.div`
   gap: 8px;
   padding: 16px;
 `;
-
+export const ButtonsWrapper = styled.div`
+  display: flex;
+  gap: 8px;
+`;
 export const Text = styled.p`
   margin: 0;
   padding: 0;

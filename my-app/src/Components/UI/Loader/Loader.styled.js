@@ -1,5 +1,11 @@
 import styled from "@emotion/styled";
 
+export const WrappperLoader = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+`;
 export const MyLoader = styled.div`
   width: 100px;
   height: 100px;

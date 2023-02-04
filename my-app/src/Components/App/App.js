@@ -1,20 +1,14 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import About from "../../pages/About/About";
-import Post from "../../pages/Post/Post";
+import AppRouter from "../App/AppRouter";
+import Header from "../Header/Header";
+import { Container } from "../../pages/Posts/Posts.styled";
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path='/about'>
-          <About />
-        </Route>
-        <Route path='/post'>
-          <Post />
-        </Route>
-      </Routes>
-    </>
+    <Container>
+      <Header />
+      <AppRouter />
+    </Container>
   );
 }
 

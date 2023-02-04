@@ -13,8 +13,9 @@ export const Container = styled.div`
   /* background-color: #ffe5cc; */
 `;
 export const Title = styled.h1`
+  margin: 0;
   text-align: center;
-  padding: 16px;
+  margin-bottom: 16px; /* padding: 16px; */
   font-size: 64px;
   color: teal;
 `;

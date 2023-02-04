@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+// Кастомный хук для fetch
 export const useFetching = (callback) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");

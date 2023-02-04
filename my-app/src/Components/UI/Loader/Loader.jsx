@@ -1,8 +1,12 @@
 import React from "react";
-import { MyLoader } from "./Loader.styled";
+import { MyLoader, WrappperLoader } from "./Loader.styled";
 
 const Loader = () => {
-  return <MyLoader></MyLoader>;
+  return (
+    <WrappperLoader>
+      <MyLoader></MyLoader>
+    </WrappperLoader>
+  );
 };
 
 export default Loader;

@@ -11,12 +11,8 @@ export const Pages = styled.span`
   margin-right: 4px;
   color: teal;
   cursor: pointer;
+
   &:active {
-    color: orange;
-    border: 1px solid orange;
-    font-weight: bold;
-  }
-  &:visited {
     color: orange;
     border: 1px solid orange;
     font-weight: bold;
